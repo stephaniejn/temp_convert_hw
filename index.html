@@ -6,8 +6,14 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<script src="tempConvert.js"> </script>
 	<style>
+		body{
+			font-family: Lucida Console;
+			font-size: 15px;
+		}
 		h1{
 			text-align: center;
+			padding-bottom: 50px;
+			font-size: 35px;
 		}
 		
 		.column1{
@@ -17,6 +23,12 @@
 		.row1{
 			margin-top: 15px
 		}
+		p{
+			text-align: center;
+			margin-top: 250px;
+			font-size: 25px;
+			margin-left: 5px;
+		}
 	</style>
 	<title></title>
 </head>
@@ -25,16 +37,16 @@
 		<div class = "row">
 			<div class = "column1 col-md-12">
 				<h1> How Cold Is It in Canadian Speak? </h1>
-				<div class ="row1 row-md-4">
-					<div class ="row1 row-md-4">Enter your temperature in Farenheit </div>
-					<input class="row1 row-md-4" type="text" id="temp" placeholder="Degrees">
-				<div class ="row1 row-md-4">
-				<button class="row1 row-md-4"id="Convert" type="button">Convert!</button>
+				<div class ="row1 row-md-4"></div>
+				<div class ="row1 row-md-4">Enter your temperature in Farenheit </div>
+				<input class="row1 row-md-4" type="text" id="temp" placeholder="Degrees">
+				<div class ="row1 row-md-4"> <button class="row1 row-md-4"id="Convert" type="button">Convert!</button></div>
 				<div class="row1 row-md-4" id="result"> I will be your Canadian temperature </div>
-				<button class="row1 row-md-4" id="Clear" type="button">Clear the Canadian Text!</button>
+				<div><button class="row1 row-md-4" id="Clear" type="button">Clear the Canadian Text!</button></div>
 				<div class="row1 row-md-4" id="nothing"></div>
+				<p>Poutine Anyone?</p>
 			</div>
+		</div>
 	</div>
-</div>
 </body>
 </html>
