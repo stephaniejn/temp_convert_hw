@@ -4,36 +4,37 @@
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-			<script src="tempConvert.js"> </script>
+	<script src="tempConvert.js"> </script>
 	<style>
 		h1{
 			text-align: center;
 		}
-		li
-		{
+		
+		.column1{
 			text-align: center;
 			list-style-type: none;
-			padding: 5px
-			
 		}
-		.list{
-			padding-top: 40px;
+		.row1{
+			margin-top: 15px
 		}
 	</style>
 	<title></title>
 </head>
 <body style="background-image: url(http://foodiesonfoot.ca/wp-content/uploads/2012/07/Canadian-Flag.jpg);">
-	<h1> How Cold Is It in Canadian Speak? </h1>
-	<div class="list">
-	<ul>
-		<li><div>Enter your temperature in Farenheit </div></li>
-		<li> <input type="text" id="temp" placeholder="Degrees">
-		</div></li>
-		<li> <button id="Convert" type="button">Convert!</button></li>
-		<li><div id="result"> I will be your Canadian temperature </div></li>
-		<li> <button id="Clear" type="button">Clear the Canadian Text!</button></li>
-		<li> <div id="nothing"></div></li>
-		</ul>
-		</div>
-	</body>
-	</html>
+	<div class ="container">
+		<div class = "row">
+			<div class = "column1 col-md-12">
+				<h1> How Cold Is It in Canadian Speak? </h1>
+				<div class ="row1 row-md-4">
+					<div class ="row1 row-md-4">Enter your temperature in Farenheit </div>
+					<input class="row1 row-md-4" type="text" id="temp" placeholder="Degrees">
+				<div class ="row1 row-md-4">
+				<button class="row1 row-md-4"id="Convert" type="button">Convert!</button>
+				<div class="row1 row-md-4" id="result"> I will be your Canadian temperature </div>
+				<button class="row1 row-md-4" id="Clear" type="button">Clear the Canadian Text!</button>
+				<div class="row1 row-md-4" id="nothing"></div>
+			</div>
+	</div>
+</div>
+</body>
+</html>
